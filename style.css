@@ -8,6 +8,7 @@
 /* Cambio de fondo general del cuerpo*/
 body {
     background-image: url("multimedia/images/fondooscuro1.jpg");
+   
 }
 
 
@@ -180,7 +181,7 @@ li {
 }
 
 .playlist7 {
-    padding: 50px 50px 50px 700px;
+    padding: 50px ;
 }
 
 /* Organización videos Proyectos Audiovisuales*/
