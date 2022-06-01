@@ -87,7 +87,7 @@ li {
 /* Organización de tamaño de imágenes */
 
 .img-logoinicial{
-    width: 15%;
+    width: 100%;
 }
 
 .img-productor{
@@ -158,26 +158,28 @@ li {
 }
 .grid-item2 {
     grid-area: foto2;
+    width: 100%;
 }
 .grid-item3 {
     grid-area: foto3;
+    width: 100%;
     
 }
 
 .audio4 {
     grid-area: audio4;
     width: 100%;
-    padding: 130px 0 0 0;
+    
 }
 .audio5 {
     grid-area: audio5;
     width: 100%;
-    padding: 130px 0 0 0;
+    
 }
 .audio6 {
     grid-area: audio6;
     width: 100%;
-    padding: 130px 0 0 0;
+    
 }
 
 .playlist7 {
