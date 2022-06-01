@@ -86,8 +86,12 @@ li {
 
 /* Organización de tamaño de imágenes */
 
-.img-logoinicial{
+.img-logoinicial1{
     width: 100%;
+}
+
+.img-logoinicial {
+    width: 25%;
 }
 
 .img-productor{
