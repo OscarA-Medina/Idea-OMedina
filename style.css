@@ -179,11 +179,16 @@ li {
     grid-area: audio5;
     width: 100%;
     
+    
 }
 .audio6 {
     grid-area: audio6;
     width: 100%;
     
+}
+
+.audios-model {
+    padding: 120px 0 0 0;
 }
 
 .playlist7 {
@@ -254,7 +259,7 @@ li {
 }
 
 .servicios-box {
-    border: 1px solid #fff;
+    border: 1px solid black;
     margin: 20px;
     font-size: 25px;
 }
