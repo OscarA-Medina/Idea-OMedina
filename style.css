@@ -212,7 +212,7 @@ li {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 30%);
     gap: 10px 15px;
-    padding: 20px;
+    padding: 20px 0 0 80px;
     grid-template-areas:
     "video1 video2"
     "video3 video4";
@@ -240,7 +240,7 @@ li {
 }
 
 
-/* Cambio de color y boxmodeling en ventanas "Proyectos Audiovisuales" y "Servicios" */
+/* Cambio de color, boxmodeling y transicion en ventanas "Proyectos Audiovisuales" y "Servicios" */
 
 .color-servicios{
     color: rgba(240, 238, 238, 0.884) ;
@@ -262,4 +262,9 @@ li {
     border: 1px solid black;
     margin: 20px;
     font-size: 25px;
+}
+
+.transition-card:hover {
+    transform: scale(1.5);
+    transition: all 1s;
 }
