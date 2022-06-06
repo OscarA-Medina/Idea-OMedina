@@ -75,8 +75,10 @@ li {
 .bio-box {
     border: none;
     width: 100%;
-    padding: 150px 0 150px 5px;
+    padding: 50px 0 50px 0;
 }
+
+
 
 /* Cambio de color de la casilla de contacto*/
 .contacto-style{
@@ -125,11 +127,23 @@ li {
     
 }
 
-/* Organización de márgenes y espacio en logos de redes*/
+
+/* Organización de márgenes, flexbox  y espacio en logos de redes*/
 
 .logos-redes{
     padding: 5px 10px;
     margin: 20px 10px;
+}
+
+.enlaces-flex {
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+
+.redes-trans:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
 }
 
 /* Organización de espacio y Grid para sección Audio y playlist */
