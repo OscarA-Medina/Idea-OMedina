@@ -148,9 +148,9 @@ li {
 
 /* Organización de espacio y Grid para sección Audio y playlist */
 
-.audio-model {
+.audios-model {
     border: none;
-    margin: 50px;
+    margin: 10px;
 }
 
 .audio-box {
@@ -211,6 +211,8 @@ li {
     padding: 50px ;
     display: block;
 }
+
+
 
 /* Organización videos Proyectos Audiovisuales*/
 
@@ -286,7 +288,7 @@ li {
 }
 
 .servicios-box {
-    border: 1px solid black;
+    border: none;
     margin: 20px;
     font-size: 25px;
 }
@@ -310,13 +312,14 @@ li {
 
 /* Medias */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 698px) {
     .grid-video-container {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(3, 30%);
         gap: 10px 15px;
-        padding: 20px 0 0 80px;
+        padding: 20px 25px 0 80px;
+        margin: 30px;
         grid-template-areas:
         "video1"
         "video2"
@@ -336,26 +339,61 @@ li {
         transform: none;
         transition: none;
     }
+    
+    .container-audio {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 70px;
+        padding-right: 20px;
+    }
 
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 80%;
+        height: 100%;
+      }
+
+    .container-iframe {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 66.66%
+      }
+    
+      
     
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (min-width: 699px) and (max-width: 1080px) {
     .grid-video-container {
         display: grid;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: repeat(2, 30%);
-        gap: 10px 15px;
+        gap: 50px 100px;
         padding: 20px 0 0 50px;
         grid-template-areas:
-        "video1"
-        "video2"
-        "video3";
+        "video1 video2"
+        "video3 video3";
     }
 
     .transition-card:hover {
         transform: none;
         transition: none;
     }
+
+    .container-iframe {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 50%
+      }
+
+    
 }
 
