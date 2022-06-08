@@ -24,23 +24,24 @@
 
         <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-black">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">INICIO</a>
+            <a class="navbar-brand" href="index.html">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="proyectos-audiovisuales.html">Proyectos Audiovisuales</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contacto3">Contacto</a>
+                  <a class="nav-link active" href="#contacto3">Contacto</a>
                 </li>
               
                   </ul>
                 </li>
               </ul>
-            </div>
+            
           </div>
         </nav>
 
@@ -54,19 +55,49 @@
 <h1 class="encabezado-color">Servicios</h1>
 
 <section class="servicios-box container"> 
-  <div class="row">
-      <p class="color-servicios col-3">- Edición de audio</p>
-      <p class="color-servicios col-3">- Grabación</p>
-      <p class="color-servicios col-2">- Mezcla</p>
-      <p class="color-servicios col-4">- Producción musical</p>
+  <div class="row grid-servicios justify-content-center">
+    <div class="card color bg-dark servicios col-2 col-sm-3" style="width: 18rem;">
+      <img src="multimedia/images/edicion-png.png" class="card-img-top" alt="edicion de audio">
+      <div class="card-body">
+        <p class="card-text text-light text-center">Edición de Audio</p>
+      </div>
+    </div>
+    <div class="card color bg-dark servicios col-2 col-sm-3" style="width: 18rem;">
+      <img src="multimedia/images/mic-logo.png" class="card-img-top" alt="edicion de audio">
+      <div class="card-body">
+        <p class="card-text text-light text-center">Grabación</p>
+      </div>
+    </div>
+    <div class="card color bg-dark servicios col-2 col-sm-3" style="width: 18rem;">
+      <img src="multimedia/images/mixing-logo.png" class="card-img-top" alt="edicion de audio">
+      <div class="card-body">
+        <p class="card-text text-light text-center">Mezcla</p>
+      </div>
+    </div>
+    
   </div>
-  <div class="row">
-      
-      <p class="color-servicios col-6">- Postproducción para audiovisuales</p>
-      <p class="color-servicios col-3">- Diseño sonoro</p>
-      <p class="color-servicios col-3">- Mastering</p></p>
+  <div class="row grid-servicios justify-content-center">
+    <div class="card color bg-dark servicios col-3" style="width: 18rem;">
+      <img src="multimedia/images/postpro-logo.png" class="card-img-top" alt="edicion de audio">
+      <div class="card-body">
+        <p class="card-text text-light text-center">Postproducción para audiovisuales</p>
+      </div>
+    </div>
+    <div class="card color bg-dark servicios col-3" style="width: 18rem;">
+      <img src="multimedia/images/music-logo.png" class="card-img-top" alt="edicion de audio">
+      <div class="card-body">
+        <p class="card-text text-light text-center">Producción Musical</p>
+      </div>
+    </div>
+    <div class="card color bg-dark servicios col-3" style="width: 18rem;">
+      <img src="multimedia/images/audio-logo.png" class="card-img-top" alt="edicion de audio">
+      <div class="card-body">
+        <p class="card-text text-light text-center">Mastering</p>
+      </div>
+    </div>
+   
   </div>   
-      <p class="color-servicios text-danger text-opacity-50 ">¡Ve a la sección de contacto y escribeme para cotizar tu próximo trabajo!</p></p>
+      <p class="color-servicios text-danger text-opacity-50 text-center ">¡Ve a la sección de contacto y escribeme para cotizar tu próximo trabajo!</p></p>
   
   
 </section>
@@ -75,9 +106,9 @@
 
 <!-- Footer - casilla de contacto-->
 
-<footer>
+<footer class="footer-conf">
 
-<section id="contacto3" class="contacto-style"> <!-- La idea es tener la casilla de contacto con formulario para poder recibir mails-->
+  <section id="contacto3" class="contacto-style"> <!-- La idea es tener la casilla de contacto con formulario para poder recibir mails-->
     <p>Contacto: 
       email:
       whatsapp:
@@ -91,4 +122,5 @@
 
 
 </body>
+
 </html>

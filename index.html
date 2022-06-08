@@ -6,11 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="multimedia/images/morochoencabezado2.png" type="image/x-icon">
+  <!-- CSS BT-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 
   <title>Oscar Medina - Morocho</title>
 </head>
@@ -21,9 +23,8 @@
 
   <header class="menu-container">
 
-    <img class="img-logoinicial1 col-1" src="multimedia/images/morochologo1.png" alt="Logo del productor">
 
-
+    <img class="img-logoinicial1 col-3" src="multimedia/images/morochologo1.png" alt="Logo del productor">
 
     <nav class="navbar navbar-expand-lg bg-light navbar-dark bg-black nav-fill">
       <div class="container-fluid">
@@ -38,10 +39,10 @@
               <a class="nav-link active" aria-current="page" href="#audio">Audio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="proyectos-audiovisuales.html">Proyectos Audiovisuales</a>
+              <a class="nav-link active" href="proyectos-audiovisuales.html">Proyectos Audiovisuales</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Servicios y Contacto
               </a>
@@ -58,6 +59,8 @@
         </div>
       </div>
     </nav>
+
+
 
     <h1 class="encabezado-color col-6">
       Oscar Medina - MOROCHO
@@ -103,22 +106,22 @@
   </section>
 
 
-  <section>
-    <nav>
-      <div>
-        <ul>
-          <li>
-            <a href="https://www.instagram.com/morocho.co/"><img class="img-logos"
-                src="multimedia/images/instagramfreepic.png" alt="Redes sociales Oscar Medina"></a>
-            <a href="https://www.youtube.com/channel/UCyW1kNQirUQZBLkM6f3zD0A"><img class="img-logos"
-                src="multimedia/images/youtube.png" alt="Redes Sociales Oscar Medina"></a>
-            <a href="https://soundcloud.com/morocho-co"><img class="img-logos"
-                src="multimedia/images/soundcloudlogopng3.png" alt="Redes sociales Oscar Medina"></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </section>
+
+  <nav class="enlaces-style">
+    <div class="container">
+      <ul>
+        <li class="row justify-content-center align-item-center">
+          <a class="col redes-trans" href="https://www.instagram.com/morocho.co/"><img class="img-logos"
+              src="multimedia/images/instagramfreepic.png" alt="Redes sociales Oscar Medina"></a>
+          <a class="col redes-trans" href="https://www.youtube.com/channel/UCyW1kNQirUQZBLkM6f3zD0A"><img
+              class="img-logos" src="multimedia/images/youtube.png" alt="Redes Sociales Oscar Medina"></a>
+          <a class="col redes-trans" href="https://soundcloud.com/morocho-co"><img class="img-logos"
+              src="multimedia/images/soundcloudlogopng3.png" alt="Redes sociales Oscar Medina"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
 
   <!-- Fin imágenes y enlaces a redes -->
 
@@ -130,26 +133,35 @@
       Biografía
     </h3>
     <div class="m-2 justify-content-center">
-      <p>Ingeniero de sonido y productor musical con más de 3 años de experiencia en grabación,   mezcla, mastering, producción musical y
-      postproducción para audiovisuales y campañas publicitarias. </p>
-      
+      <p>Ingeniero de sonido y productor musical con más de 3 años de experiencia en grabación, mezcla, mastering,
+        producción musical y
+        postproducción para audiovisuales y campañas publicitarias. </p>
 
-      <p> Estudié en Tecson en Buenos Aires, Argentina y desde el desarrollo de mi carrera he estado involucrado en proyectos relacionados a la música, al sonido como 
-      herramienta publicitaria y/o de difusión y al ambito auditivo en audiovisuales (desde la captación de sonido directo hasta la postproducción general). </p>
-      
-      <p> Como trabajador independiente, he brindado mis servicios a artistas de diferentes partes del mundo de manera presencial y remota. He realizado trabajos 
-      de mezcla y mastering para singles (<a href="#audio">link sección Audio</a>), he trabajado la construcción de un álbum musical desde el proceso de producción hasta el 
-      lanzamiento en redes y he brindado servicios de consultoría para personas involucradas al audio que requieren conocimiento técnico para obtener calidad 
-      sonora en sus proyectos.</p> 
-      
-      <p> Algunos de los proyectos audiovisuales en los que he trabajado: (<a href="proyectos-audiovisuales.html">link sección Proyectos Audiovisuales</a>) </p> 
 
-      <p> - Performance audiovisual "Zona Frágil", año 2020. Ganador de la convocatoria "Unidos por la vida 2020" de la Secretaría de Cultura de Cali, Colombia. </p>
+      <p> Estudié en Tecson en Buenos Aires, Argentina y desde el desarrollo de mi carrera he estado involucrado en
+        proyectos relacionados a la música, al sonido como
+        herramienta publicitaria y/o de difusión y al ambito auditivo en audiovisuales (desde la captación de sonido
+        directo hasta la postproducción general). </p>
 
-      <p> - Cortometraje "Cuestión de Tiempo", año 2021. Seleccionado en el festival SmartFilms 2021 como finalista en la categoría de grabación profesional. </p>
+      <p> Como trabajador independiente, he brindado mis servicios a artistas de diferentes partes del mundo de manera
+        presencial y remota. He realizado trabajos
+        de mezcla y mastering para singles (<a href="#audio">link sección Audio</a>), he trabajado la construcción de un
+        álbum musical desde el proceso de producción hasta el
+        lanzamiento en redes y he brindado servicios de consultoría para personas involucradas al audio que requieren
+        conocimiento técnico para obtener calidad
+        sonora en sus proyectos.</p>
+
+      <p> Algunos de los proyectos audiovisuales en los que he trabajado: (<a href="proyectos-audiovisuales.html">link
+          sección Proyectos Audiovisuales</a>) </p>
+
+      <p> - Performance audiovisual "Zona Frágil", año 2020. Ganador de la convocatoria "Unidos por la vida 2020" de la
+        Secretaría de Cultura de Cali, Colombia. </p>
+
+      <p> - Cortometraje "Cuestión de Tiempo", año 2021. Seleccionado en el festival SmartFilms 2021 como finalista en
+        la categoría de grabación profesional. </p>
 
     </div>
-    
+
   </section>
 
   <!-- Fin Biografía-->
@@ -165,56 +177,56 @@
   <section class="audio-model">
 
 
-    <section  class="container">
-      <div class="row">
-        <div class="card grid-container bg-dark col4 m-2" style="width: 18rem;">
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="card bg-dark col4 m-2" style="width: 18rem;">
           <img src="multimedia/images/lalomadelacruz.jpg" class="card-img-top img-tapas grid-item1"
-          alt="Imagen la loma de la cruz">
+            alt="Imagen la loma de la cruz">
           <div class="card-body bg-dark">
             <p class="card-text text-light bg-dark">La Loma de La Cruz - Sátiro ft Morocho</p>
           </div>
-        </div>  
-        <div class="col-3 audios-model">
-          <p class="bio-color">Escúchala aquí abajo</p>
-          <audio class="audio4" src="multimedia/audio/lalomadelacruzmaster1.wav" controls>La loma de la Cruz</audio>
+        </div>
+        <div class="col-3 audios-model container-audio">
+          <p class="bio-color responsive-audio text-center">Escúchala aquí abajo</p>
+          <audio class="audio4 responsive-audio" src="multimedia/audio/lalomadelacruzmaster1.wav" controls>La loma de la Cruz</audio>
         </div>
       </div>
-      <div class="row">
-        <div class="card grid-container bg-dark col-4 m-2" style="width: 18rem;">
+      <div class="row justify-content-center">
+        <div class="card  bg-dark col-4 m-2" style="width: 18rem;">
           <img src="multimedia/images/santamolecula.png" class="card-img-top img-tapas grid-item2"
-          alt="imagen santa molecula">
+            alt="imagen santa molecula">
           <div class="card-body bg-dark">
             <p class="card-text text-light bg-dark">Santa Molécula - Sátiro ft Morocho</p>
           </div>
         </div>
-        <div class="col-3 audios-model">
-          <p class="bio-color">Escúchala aquí abajo</p>
-          <audio class="audio5" src="multimedia/audio/santamoleculamaster2.wav" controls>Santa molecula</audio>
+        <div class="col-3 audios-model container-audio">
+          <p class="bio-color responsive-audio text-center">Escúchala aquí abajo</p>
+          <audio class="audio5 responsive-audio" src="multimedia/audio/santamoleculamaster2.wav" controls>Santa molecula</audio>
         </div>
       </div>
-      <div class="row">
-        <div class="card grid-container bg-dark col-4 m-2" style="width: 18rem;">
+      <div class="row justify-content-center">
+        <div class="card  bg-dark col-4 m-2" style="width: 18rem;">
           <img src="multimedia/images/amorensueños.jpg" class="card-img-top img-tapas grid-item3"
-          alt="imagen amor en sueños">
+            alt="imagen amor en sueños">
           <div class="card-body bg-dark">
             <p class="card-text text-light bg-dark">Amor en sueños - Sátiro ft Morocho</p>
           </div>
         </div>
-        <div class="col-3 audios-model">
-          <p class="bio-color"> Escúchala aquí abajo</p>
-          <audio class="audio6" src="multimedia/audio/amorensueñosmaster1.wav" controls>Amor en sueños</audio>
+        <div class="col-3 audios-model container-audio">
+          <p class="bio-color responsive-audio text-center"> Escúchala aquí abajo</p>
+          <audio class="audio6 responsive-audio" src="multimedia/audio/amorensueñosmaster1.wav" controls>Amor en sueños</audio>
         </div>
       </div>
-      
-      <p class="bio-color m-2"> Te invito a escuchar mi playlist en Spotify</p>
-      
-      <div>
-        <iframe class="playlist7" src="https://open.spotify.com/embed/playlist/7KkKDkVWt1xjoqfX4yNsWZ" width="500"
+
+      <p class="bio-color m-2 playlist7"> Te invito a escuchar mi playlist en Spotify</p>
+
+      <div class="container-iframe">
+        <iframe class="playlist7 responsive-iframe" src="https://open.spotify.com/embed/playlist/7KkKDkVWt1xjoqfX4yNsWZ" width="500"
           height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
         </iframe>
 
       </div>
-    </div>
+      </div>
     </section>
 
     <section>
@@ -225,7 +237,7 @@
 
   <!-- Footer - casilla de contacto-->
 
-  <footer>
+  <footer class="footer-conf">
 
     <section id="Contacto" class="contacto-style">
       <!-- La idea es tener la casilla de contacto con formulario para poder recibir mails-->
